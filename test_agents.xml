@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uccx_configuration version="12.0" export_date="2024-01-15" source="UCCX-AGENTS">
+  <agents>
+    <agent id="003" name="Mike Johnson" extension="1003" enabled="true">
+      <skills>
+        <skill id="spanish" name="Spanish" competence="10"/>
+        <skill id="billing" name="Billing Support" competence="9"/>
+      </skills>
+      <teams>
+        <team id="bilingual" name="Bilingual Support"/>
+      </teams>
+    </agent>
+    <agent id="004" name="Sarah Davis" extension="1004" enabled="true">
+      <skills>
+        <skill id="french" name="French" competence="8"/>
+        <skill id="technical" name="Technical Support" competence="9"/>
+      </skills>
+      <teams>
+        <team id="international" name="International Support"/>
+      </teams>
+    </agent>
+  </agents>
+</uccx_configuration>

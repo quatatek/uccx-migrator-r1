@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CSQ Provisioning XML for UCCX /adminapi/csq endpoint -->
+<!-- References target skill IDs (101, 102, 103, etc.) from previously provisioned skills -->
+
+<csqs>
+  <!-- CSQ 1: Customer Service Queue -->
+  <csq xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="csq.xsd">
+    <self href="" rel="" type="" />
+    <name>Customer Service Queue</name>
+    <queueType>VOICE</queueType>
+    <queueAlgorithm>FIFO</queueAlgorithm>
+    <autoWork>true</autoWork>
+    <wrapupTime>10</wrapupTime>
+    <resourcePoolType>SKILL_GROUP</resourcePoolType>
+    <serviceLevel>20</serviceLevel>
+    <serviceLevelPercentage>80</serviceLevelPercentage>
+    <poolSpecificInfo>
+      <skillGroup>
+        <skillCompetency>
+          <competencelevel>5</competencelevel>
+          <skillNameUriPair name="Customer Service">
+            <refURL>/adminapi/skill/101</refURL>
+          </skillNameUriPair>
+          <weight>1</weight>
+        </skillCompetency>
+        <selectionCriteria>Longest Available</selectionCriteria>
+      </skillGroup>
+    </poolSpecificInfo>
+  </csq>
+
+  <!-- CSQ 2: Technical Support Queue -->
+  <csq xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="csq.xsd">
+    <self href="" rel="" type="" />
+    <name>Technical Support Queue</name>
+    <queueType>VOICE</queueType>
+    <queueAlgorithm>FIFO</queueAlgorithm>
+    <autoWork>true</autoWork>
+    <wrapupTime>15</wrapupTime>
+    <resourcePoolType>SKILL_GROUP</resourcePoolType>
+    <serviceLevel>30</serviceLevel>
+    <serviceLevelPercentage>75</serviceLevelPercentage>
+    <poolSpecificInfo>
+      <skillGroup>
+        <skillCompetency>
+          <competencelevel>7</competencelevel>
+          <skillNameUriPair name="Technical Support">
+            <refURL>/adminapi/skill/102</refURL>
+          </skillNameUriPair>
+          <weight>2</weight>
+        </skillCompetency>
+        <selectionCriteria>Most Skilled</selectionCriteria>
+      </skillGroup>
+    </poolSpecificInfo>
+  </csq>
+
+  <!-- CSQ 3: Sales Queue with Multiple Skills -->
+  <csq xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="csq.xsd">
+    <self href="" rel="" type="" />
+    <name>Sales Queue</name>
+    <queueType>VOICE</queueType>
+    <queueAlgorithm>FIFO</queueAlgorithm>
+    <autoWork>true</autoWork>
+    <wrapupTime>5</wrapupTime>
+    <resourcePoolType>SKILL_GROUP</resourcePoolType>
+    <serviceLevel>15</serviceLevel>
+    <serviceLevelPercentage>85</serviceLevelPercentage>
+    <poolSpecificInfo>
+      <skillGroup>
+        <skillCompetency>
+          <competencelevel>6</competencelevel>
+          <skillNameUriPair name="Sales">
+            <refURL>/adminapi/skill/103</refURL>
+          </skillNameUriPair>
+          <weight>2</weight>
+        </skillCompetency>
+        <skillCompetency>
+          <competencelevel>4</competencelevel>
+          <skillNameUriPair name="Spanish Language">
+            <refURL>/adminapi/skill/105</refURL>
+          </skillNameUriPair>
+          <weight>1</weight>
+        </skillCompetency>
+        <selectionCriteria>Longest Available</selectionCriteria>
+      </skillGroup>
+    </poolSpecificInfo>
+  </csq>
+
+  <!-- CSQ 4: Billing Queue -->
+  <csq xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="csq.xsd">
+    <self href="" rel="" type="" />
+    <name>Billing Queue</name>
+    <queueType>VOICE</queueType>
+    <queueAlgorithm>FIFO</queueAlgorithm>
+    <autoWork>false</autoWork>
+    <wrapupTime>20</wrapupTime>
+    <resourcePoolType>SKILL_GROUP</resourcePoolType>
+    <serviceLevel>25</serviceLevel>
+    <serviceLevelPercentage>70</serviceLevelPercentage>
+    <poolSpecificInfo>
+      <skillGroup>
+        <skillCompetency>
+          <competencelevel>8</competencelevel>
+          <skillNameUriPair name="Billing">
+            <refURL>/adminapi/skill/104</refURL>
+          </skillNameUriPair>
+          <weight>3</weight>
+        </skillCompetency>
+        <selectionCriteria>Most Skilled</selectionCriteria>
+      </skillGroup>
+    </poolSpecificInfo>
+  </csq>
+</csqs>

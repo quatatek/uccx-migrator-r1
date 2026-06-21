@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uccx_configuration version="12.0" export_date="2024-01-15" source="UCCX-TEST">
+  <agents>
+    <agent id="001" name="John Doe" extension="1001" enabled="true">
+      <skills>
+        <skill id="english" name="English" competence="10"/>
+        <skill id="sales" name="Sales" competence="8"/>
+      </skills>
+      <teams>
+        <team id="support" name="Support Team"/>
+      </teams>
+    </agent>
+    <agent id="002" name="Jane Smith" extension="1002" enabled="true">
+      <skills>
+        <skill id="english" name="English" competence="9"/>
+        <skill id="technical" name="Technical Support" competence="10"/>
+      </skills>
+      <teams>
+        <team id="technical" name="Technical Team"/>
+      </teams>
+    </agent>
+  </agents>
+  <csqs>
+    <csq id="support_queue" name="Support Queue" enabled="true">
+      <settings>
+        <max_wait_time>300</max_wait_time>
+        <priority>5</priority>
+      </settings>
+    </csq>
+  </csqs>
+  <applications>
+    <application id="main_app" name="Main Application" enabled="true">
+      <settings>
+        <auto_answer>true</auto_answer>
+        <recording>enabled</recording>
+      </settings>
+    </application>
+  </applications>
+  <devices>
+    <device id="phone_001" name="IP Phone 001" type="7970" enabled="true"/>
+    <device id="phone_002" name="IP Phone 002" type="7960" enabled="true"/>
+  </devices>
+</uccx_configuration>

@@ -1,0 +1,36 @@
+|uccx-migration  | 2025-10-12T11:00:00: Method: POST
+0|uccx-migration  | 2025-10-12T11:00:00: URL: https://198.18.133.19:443/adminapi/skill
+0|uccx-migration  | 2025-10-12T11:00:00: Headers: {
+0|uccx-migration  |   "Accept": "application/xml",
+0|uccx-migration  |   "Content-Type": "application/xml"
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T11:00:00: Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+0|uccx-migration  | <skill>
+0|uccx-migration  |   <skillName>SK_FES_HR_CB</skillName>
+0|uccx-migration  | </skill>
+0|uccx-migration  | 2025-10-12T11:00:00: ======================================
+0|uccx-migration  | 2025-10-12T11:00:01: 
+0|uccx-migration  | ========== UCCX API RESPONSE ==========
+0|uccx-migration  | 2025-10-12T11:00:01: Status: 201 
+0|uccx-migration  | 2025-10-12T11:00:01: URL: https://198.18.133.19:443/adminapi/skill
+0|uccx-migration  | 2025-10-12T11:00:01: Response Body: https://198.18.133.19/adminapi/skill/49
+0|uccx-migration  | 2025-10-12T11:00:01: =======================================
+0|uccx-migration  | 2025-10-12T11:00:01: Failed to migrate skill {"SK_FES_HR_CB"}: Error: Non-whitespace before first tag.
+0|uccx-migration  | Line: 0
+0|uccx-migration  | Column: 1
+0|uccx-migration  | Char: h
+0|uccx-migration  |     at error (/opt/uccx-migration/node_modules/sax/lib/sax.js:658:10)
+0|uccx-migration  |     at strictFail (/opt/uccx-migration/node_modules/sax/lib/sax.js:684:7)
+0|uccx-migration  |     at beginWhiteSpace (/opt/uccx-migration/node_modules/sax/lib/sax.js:958:7)
+0|uccx-migration  |     at SAXParser.write (/opt/uccx-migration/node_modules/sax/lib/sax.js:1013:11)
+0|uccx-migration  |     at exports.Parser.Parser.parseString (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:337:31)
+0|uccx-migration  |     at Parser.parseString (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:5:59)
+0|uccx-migration  |     at /opt/uccx-migration/node_modules/xml2js/lib/parser.js:352:24
+0|uccx-migration  |     at new Promise (<anonymous>)
+0|uccx-migration  |     at exports.Parser.Parser.parseStringPromise (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:350:14)
+0|uccx-migration  |     at Parser.parseStringPromise (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:5:59)
+0|uccx-migration  | 2025-10-12T11:00:01: Migration job failed: 32d91928-52cd-41d3-acde-b067f07cf6f9 Migration failed: Migration completed with 1 failures
+0|uccx-migration  | 2025-10-12T11:00:01: Error processing job 32d91928-52cd-41d3-acde-b067f07cf6f9: Error: Migration failed: Migration completed with 1 failures
+0|uccx-migration  |     at MigrationQueueService.processJob (file:///opt/uccx-migration/dist/index.js:2026:15)
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async MigrationQueueService.processQueue (file:///opt/uccx-migration/dist/index.js:1919:9)

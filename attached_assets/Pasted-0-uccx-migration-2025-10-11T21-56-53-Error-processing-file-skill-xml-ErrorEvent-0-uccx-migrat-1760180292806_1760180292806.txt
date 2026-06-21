@@ -1,0 +1,88 @@
+0|uccx-migration  | 2025-10-11T21:56:53: Error processing file skill.xml: ErrorEvent {
+0|uccx-migration  |   [Symbol(kTarget)]: WebSocket {
+0|uccx-migration  |     _events: [Object: null prototype] {
+0|uccx-migration  |       error: [Function],
+0|uccx-migration  |       message: [Function],
+0|uccx-migration  |       close: [Function],
+0|uccx-migration  |       open: [Function]
+0|uccx-migration  |     },
+0|uccx-migration  |     _eventsCount: 4,
+0|uccx-migration  |     _maxListeners: undefined,
+0|uccx-migration  |     _binaryType: 'arraybuffer',
+0|uccx-migration  |     _closeCode: 1006,
+0|uccx-migration  |     _closeFrameReceived: false,
+0|uccx-migration  |     _closeFrameSent: false,
+0|uccx-migration  |     _closeMessage: <Buffer >,
+0|uccx-migration  |     _closeTimer: null,
+0|uccx-migration  |     _errorEmitted: true,
+0|uccx-migration  |     _extensions: {},
+0|uccx-migration  |     _paused: false,
+0|uccx-migration  |     _protocol: '',
+0|uccx-migration  |     _readyState: 3,
+0|uccx-migration  |     _receiver: null,
+0|uccx-migration  |     _sender: null,
+0|uccx-migration  |     _socket: null,
+0|uccx-migration  |     _bufferedAmount: 0,
+0|uccx-migration  |     _isServer: false,
+0|uccx-migration  |     _redirects: 0,
+0|uccx-migration  |     _autoPong: true,
+0|uccx-migration  |     _url: 'wss://localhost/v2',
+0|uccx-migration  |     _req: null,
+0|uccx-migration  |     [Symbol(shapeMode)]: false,
+0|uccx-migration  |     [Symbol(kCapture)]: false
+0|uccx-migration  |   },
+0|uccx-migration  |   [Symbol(kType)]: 'error',
+0|uccx-migration  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+0|uccx-migration  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+0|uccx-migration  |     errno: -111,
+0|uccx-migration  |     code: 'ECONNREFUSED',
+0|uccx-migration  |     syscall: 'connect',
+0|uccx-migration  |     address: '127.0.0.1',
+0|uccx-migration  |     port: 443
+0|uccx-migration  |   },
+0|uccx-migration  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-11T21:56:53: Error importing configurations: ErrorEvent {
+0|uccx-migration  |   [Symbol(kTarget)]: WebSocket {
+0|uccx-migration  |     _events: [Object: null prototype] {
+0|uccx-migration  |       error: [Function],
+0|uccx-migration  |       message: [Function],
+0|uccx-migration  |       close: [Function],
+0|uccx-migration  |       open: [Function]
+0|uccx-migration  |     },
+0|uccx-migration  |     _eventsCount: 4,
+0|uccx-migration  |     _maxListeners: undefined,
+0|uccx-migration  |     _binaryType: 'arraybuffer',
+0|uccx-migration  |     _closeCode: 1006,
+0|uccx-migration  |     _closeFrameReceived: false,
+0|uccx-migration  |     _closeFrameSent: false,
+0|uccx-migration  |     _closeMessage: <Buffer >,
+0|uccx-migration  |     _closeTimer: null,
+0|uccx-migration  |     _errorEmitted: true,
+0|uccx-migration  |     _extensions: {},
+0|uccx-migration  |     _paused: false,
+0|uccx-migration  |     _protocol: '',
+0|uccx-migration  |     _readyState: 3,
+0|uccx-migration  |     _receiver: null,
+0|uccx-migration  |     _sender: null,
+0|uccx-migration  |     _socket: null,
+0|uccx-migration  |     _bufferedAmount: 0,
+0|uccx-migration  |     _isServer: false,
+0|uccx-migration  |     _redirects: 0,
+0|uccx-migration  |     _autoPong: true,
+0|uccx-migration  |     _url: 'wss://localhost/v2',
+0|uccx-migration  |     _req: null,
+0|uccx-migration  |     [Symbol(shapeMode)]: false,
+0|uccx-migration  |     [Symbol(kCapture)]: false
+0|uccx-migration  |   },
+0|uccx-migration  |   [Symbol(kType)]: 'error',
+0|uccx-migration  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+0|uccx-migration  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+0|uccx-migration  |     errno: -111,
+0|uccx-migration  |     code: 'ECONNREFUSED',
+0|uccx-migration  |     syscall: 'connect',
+0|uccx-migration  |     address: '127.0.0.1',
+0|uccx-migration  |     port: 443
+0|uccx-migration  |   },
+0|uccx-migration  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+0|uccx-migration  | }

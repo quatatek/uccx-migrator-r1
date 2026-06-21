@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uccx_configuration version="12.0" export_date="2024-01-15" source="UCCX-DEVICES">
+  <devices>
+    <device id="DEV001" name="IP Phone 7975" mac="001122334455" enabled="true" type="7975">
+      <settings>
+        <setting name="lineAppearances">6</setting>
+        <setting name="firmwareVersion">9.4.2</setting>
+      </settings>
+    </device>
+    <device id="DEV002" name="IP Phone 8861" mac="556677889900" enabled="true" type="8861">
+      <settings>
+        <setting name="lineAppearances">4</setting>
+        <setting name="firmwareVersion">14.1.0</setting>
+      </settings>
+    </device>
+    <device id="DEV003" name="Softphone Client" mac="112233445566" enabled="true" type="softphone">
+      <settings>
+        <setting name="lineAppearances">2</setting>
+        <setting name="clientVersion">12.6.1</setting>
+      </settings>
+    </device>
+  </devices>
+</uccx_configuration>

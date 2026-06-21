@@ -1,0 +1,89 @@
+|uccx-migration  | 2025-11-30T17:26:56: Received migration job request body: {
+0|uccx-migration  |   "configurationItems": "triggers",
+0|uccx-migration  |   "targetConnectionId": "a2bd0021-763b-49a2-a536-e6ca3b1acd9b",
+0|uccx-migration  |   "settings": {
+0|uccx-migration  |     "migrationType": "full",
+0|uccx-migration  |     "createBackup": false,
+0|uccx-migration  |     "validateBeforeApply": false,
+0|uccx-migration  |     "sendNotification": false
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-30T17:26:56: Migration tab request for: triggers
+0|uccx-migration  | 2025-11-30T17:26:56: Job data before parsing: {
+0|uccx-migration  |   "configurationId": null,
+0|uccx-migration  |   "targetConnectionId": "a2bd0021-763b-49a2-a536-e6ca3b1acd9b",
+0|uccx-migration  |   "status": "pending",
+0|uccx-migration  |   "progress": 0,
+0|uccx-migration  |   "settings": {
+0|uccx-migration  |     "type": "triggers",
+0|uccx-migration  |     "options": {
+0|uccx-migration  |       "dryRun": false,
+0|uccx-migration  |       "createBackup": false,
+0|uccx-migration  |       "overrideExisting": true
+0|uccx-migration  |     }
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-30T17:26:56: Job data settings: {
+0|uccx-migration  |   "type": "triggers",
+0|uccx-migration  |   "options": {
+0|uccx-migration  |     "dryRun": false,
+0|uccx-migration  |     "createBackup": false,
+0|uccx-migration  |     "overrideExisting": true
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-30T17:26:56: Job data settings.type: triggers
+0|uccx-migration  | 2025-11-30T17:26:56: Job data settings.triggers exists: false length: undefined
+0|uccx-migration  | 2025-11-30T17:26:56: Parsed migration job data: {
+0|uccx-migration  |   "configurationId": null,
+0|uccx-migration  |   "targetConnectionId": "a2bd0021-763b-49a2-a536-e6ca3b1acd9b",
+0|uccx-migration  |   "status": "pending",
+0|uccx-migration  |   "progress": 0,
+0|uccx-migration  |   "settings": {
+0|uccx-migration  |     "type": "triggers",
+0|uccx-migration  |     "options": {
+0|uccx-migration  |       "dryRun": false,
+0|uccx-migration  |       "createBackup": false,
+0|uccx-migration  |       "overrideExisting": true
+0|uccx-migration  |     }
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-30T17:26:56: Parsed settings: {
+0|uccx-migration  |   "type": "triggers",
+0|uccx-migration  |   "options": {
+0|uccx-migration  |     "dryRun": false,
+0|uccx-migration  |     "createBackup": false,
+0|uccx-migration  |     "overrideExisting": true
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-30T17:26:56: Migration job started: b19c926b-2940-458f-9647-ae6ea39ada1a
+0|uccx-migration  | 2025-11-30T17:26:56: === Migration Job Processing ===
+0|uccx-migration  | 2025-11-30T17:26:56: Job ID: b19c926b-2940-458f-9647-ae6ea39ada1a
+0|uccx-migration  | 2025-11-30T17:26:56: Job configurationId: null
+0|uccx-migration  | 2025-11-30T17:26:56: Job targetConnectionId: a2bd0021-763b-49a2-a536-e6ca3b1acd9b
+0|uccx-migration  | 2025-11-30T17:26:56: Raw job.settings: {
+0|uccx-migration  |   type: 'triggers',
+0|uccx-migration  |   options: { dryRun: false, createBackup: false, overrideExisting: true }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-30T17:26:56: Settings type: object {
+0|uccx-migration  |   "type": "triggers",
+0|uccx-migration  |   "options": {
+0|uccx-migration  |     "dryRun": false,
+0|uccx-migration  |     "createBackup": false,
+0|uccx-migration  |     "overrideExisting": true
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.type value: triggers
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.skills: false false undefined
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.resourceGroups: false false undefined
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.csqs: false false undefined
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.resources: false false undefined
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.teams: false false undefined
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.applications: false false undefined
+0|uccx-migration  | 2025-11-30T17:26:56: Settings.triggers: false false undefined
+0|uccx-migration  | 2025-11-30T17:26:56: ================================
+0|uccx-migration  | 2025-11-30T17:26:56: Migration job failed: b19c926b-2940-458f-9647-ae6ea39ada1a Configuration ID is required for traditional migrations
+0|uccx-migration  | 2025-11-30T17:26:56: Error processing job b19c926b-2940-458f-9647-ae6ea39ada1a: Error: Configuration ID is required for traditional migrations
+0|uccx-migration  |     at MigrationQueueService.processJob (file:///opt/uccx-migration/dist/index.js:3960:17)
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async MigrationQueueService.processQueue (file:///opt/uccx-migration/dist/index.js:3847:9)
+0|uccx-migration  | 2025-11-30T17:26:56: 5:26:56 PM [express] POST /api/migrations 200 in 246ms :: {"id":"b19c926b-2940-458f-9647-ae6ea39ada1…

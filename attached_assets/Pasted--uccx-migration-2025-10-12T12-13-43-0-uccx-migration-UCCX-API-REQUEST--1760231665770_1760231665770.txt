@@ -1,0 +1,32 @@
+|uccx-migration  | 2025-10-12T12:13:43: 
+0|uccx-migration  | ========== UCCX API REQUEST ==========
+0|uccx-migration  | 2025-10-12T12:13:43: Method: GET
+0|uccx-migration  | 2025-10-12T12:13:43: URL: https://198.18.133.19:443/adminapi/resourceGroup/5
+0|uccx-migration  | 2025-10-12T12:13:43: Headers: {
+0|uccx-migration  |   "Accept": "application/json",
+0|uccx-migration  |   "Content-Type": "application/json"
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T12:13:43: ======================================
+0|uccx-migration  | 2025-10-12T12:13:44: 
+0|uccx-migration  | ========== UCCX API ERROR ==========
+0|uccx-migration  | 2025-10-12T12:13:44: Status: 404
+0|uccx-migration  | 2025-10-12T12:13:44: URL: https://198.18.133.19:443/adminapi/resourceGroup/5
+0|uccx-migration  | 2025-10-12T12:13:44: Error Data: {
+0|uccx-migration  |   "apiError": [
+0|uccx-migration  |     {
+0|uccx-migration  |       "errorData": "5",
+0|uccx-migration  |       "errorMessage": "No entity found for query",
+0|uccx-migration  |       "errorType": "InstanceNotFound"
+0|uccx-migration  |     }
+0|uccx-migration  |   ]
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T12:13:44: ====================================
+0|uccx-migration  | 2025-10-12T12:13:44: Failed to migrate resource group Robot Agents: Error: UCCX API Error: 404 - Request failed with status code 404
+0|uccx-migration  |     at file:///opt/uccx-migration/dist/index.js:1253:31
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async Axios.request (file:///opt/uccx-migration/node_modules/axios/lib/core/Axios.js:40:14)
+0|uccx-migration  |     at async UccxApiService.getResourceGroup (file:///opt/uccx-migration/dist/index.js:1846:24)
+0|uccx-migration  |     at async UccxApiService.migrateResourceGroups (file:///opt/uccx-migration/dist/index.js:1480:39)
+0|uccx-migration  |     at async UccxApiService.migrateConfiguration (file:///opt/uccx-migration/dist/index.js:1306:38)
+0|uccx-migration  |     at async MigrationQueueService.processJob (file:///opt/uccx-migration/dist/index.js:2083:31)
+0|uccx-migration  |     at async MigrationQueueService.processQueue (file:///opt/uccx-migration/dist/index.js:1981:9)

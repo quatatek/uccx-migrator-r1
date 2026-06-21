@@ -1,0 +1,31 @@
+[32m0|uccx-migration  | [39m========== UCCX API REQUEST ==========
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: Method: POST
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: URL: https://m-cwy-vic-xm1-ccx01.transpacific.local:443/adminapi/trigger
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: Headers: {
+[32m0|uccx-migration  | [39m  "Accept": "application/xml",
+[32m0|uccx-migration  | [39m  "Content-Type": "application/xml"
+[32m0|uccx-migration  | [39m}
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: Body: <trigger xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="trigger.xsd">
+[32m0|uccx-migration  | [39m    <self href="" rel="" type="" />
+[32m0|uccx-migration  | [39m    <directoryNumber>94373</directoryNumber>
+[32m0|uccx-migration  | [39m    <locale>en_AU</locale>
+[32m0|uccx-migration  | [39m    <applicationName>IND_NSW_CSC_1800Spills</applicationName>
+[32m0|uccx-migration  | [39m    <deviceName>IND_NSW_18Spill</deviceName>
+[32m0|uccx-migration  | [39m    <description>IND_NSW CSC 1800Spills</description>
+[32m0|uccx-migration  | [39m    <callControlGroupId>2</callControlGroupId>
+[32m0|uccx-migration  | [39m    <triggerEnabled>true</triggerEnabled>
+[32m0|uccx-migration  | [39m    <maxNumOfSessions>30</maxNumOfSessions>
+[32m0|uccx-migration  | [39m    <devicePool>DP-CTI-S2-S1</devicePool>
+[32m0|uccx-migration  | [39m    <location>G711a</location>
+[32m0|uccx-migration  | [39m    <busyTrigger>false</busyTrigger>
+[32m0|uccx-migration  | [39m    <callingSearchSpace>CSS-CF-STD</callingSearchSpace>
+[32m0|uccx-migration  | [39m    <aarGroup></aarGroup>
+[32m0|uccx-migration  | [39m</trigger>
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: ======================================
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: 
+[32m0|uccx-migration  | [39m========== UCCX API ERROR ==========
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: Status: 400
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: URL: https://m-cwy-vic-xm1-ccx01.transpacific.local:443/adminapi/trigger
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: Error Data: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><apiErrors><apiError><errorData></errorData><errorMessage>\nException Description: An error occurred marshalling the object\nInternal Exception: org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element 'deviceName'. One of '{application}' is expected.</errorMessage><errorType>InvalidInput</errorType></apiError></apiErrors>"
+[32m0|uccx-migration  | [39m2025-12-01T01:27:15: ====================================
+[31m0|uccx-migration  | [39m2025-12-01T01:27:15: Failed to migrate trigger 94373: Error: UCCX API Error: 400 - Request failed with status code 400

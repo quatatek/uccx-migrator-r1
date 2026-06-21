@@ -1,0 +1,35 @@
+0|uccx-migration  | ========== UCCX API REQUEST ==========
+0|uccx-migration  | 2025-11-24T23:07:02: Method: PUT
+0|uccx-migration  | 2025-11-24T23:07:02: URL: https://uccx1.dcloud.cisco.com:443/adminapi/resource/mmyers
+0|uccx-migration  | 2025-11-24T23:07:02: Headers: {
+0|uccx-migration  |   "Accept": "application/xml",
+0|uccx-migration  |   "Content-Type": "application/xml"
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-24T23:07:02: Body: <resource xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resource.xsd">
+0|uccx-migration  |     <self href="" rel="" type="" />
+0|uccx-migration  |     <firstName>Madison</firstName>
+0|uccx-migration  |     <lastName>Myers</lastName>
+0|uccx-migration  |     <userID>mmyers</userID>
+0|uccx-migration  |     <skills>
+0|uccx-migration  |           <skillCompetency>
+0|uccx-migration  |               <competencelevel>5</competencelevel>
+0|uccx-migration  |               <skillNameUriPair name="Cumulus Finance">
+0|uccx-migration  |                   <refURL>/adminapi/skill/70</refURL>
+0|uccx-migration  |               </skillNameUriPair>
+0|uccx-migration  |           </skillCompetency>
+0|uccx-migration  |           <skillCompetency>
+0|uccx-migration  |               <competencelevel>5</competencelevel>
+0|uccx-migration  |               <skillNameUriPair name="Robot">
+0|uccx-migration  |                   <refURL>/adminapi/skill/69</refURL>
+0|uccx-migration  |               </skillNameUriPair>
+0|uccx-migration  |           </skillCompetency>
+0|uccx-migration  |     </skills>
+0|uccx-migration  | </resource>
+0|uccx-migration  | 2025-11-24T23:07:02: ======================================
+0|uccx-migration  | 2025-11-24T23:07:02: 
+0|uccx-migration  | ========== UCCX API ERROR ==========
+0|uccx-migration  | 2025-11-24T23:07:02: Status: 400
+0|uccx-migration  | 2025-11-24T23:07:02: URL: https://uccx1.dcloud.cisco.com:443/adminapi/resource/mmyers
+0|uccx-migration  | 2025-11-24T23:07:02: Error Data: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<apiErrors><apiError><errorData></errorData><errorMessage>cvc-complex-type.2.4.a: Invalid content was found starting with element 'autoAvailable'. One of '{extension}' is expected.</errorMessage><errorType>InvalidInput</errorType></apiError></apiErrors>"
+0|uccx-migration  | 2025-11-24T23:07:02: ====================================
+0|uccx-migration  | 2025-11-24T23:07:02: Failed to migrate resource Madison Myers: Error: UCCX API Error: 400 - Request failed with status code 400

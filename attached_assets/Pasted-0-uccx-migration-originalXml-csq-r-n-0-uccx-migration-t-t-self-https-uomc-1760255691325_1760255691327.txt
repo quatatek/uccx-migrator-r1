@@ -1,0 +1,89 @@
+0|uccx-migration  |     originalXml: '<csq>\r\n' +
+0|uccx-migration  |       '\t\t<self>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/csq/12</self>\r\n' +
+0|uccx-migration  |       '\t\t<id>12</id>\r\n' +
+0|uccx-migration  |       '\t\t<name>CSQ_HealthServ</name>\r\n' +
+0|uccx-migration  |       '\t\t<queueType>VOICE</queueType>\r\n' +
+0|uccx-migration  |       '\t\t<routingType>VOICE</routingType>\r\n' +
+0|uccx-migration  |       '\t\t<queueAlgorithm>FIFO</queueAlgorithm>\r\n' +
+0|uccx-migration  |       '\t\t<autoWork>true</autoWork>\r\n' +
+0|uccx-migration  |       '\t\t<wrapupTime>30</wrapupTime>\r\n' +
+0|uccx-migration  |       '\t\t<resourcePoolType>RESOURCE_GROUP</resourcePoolType>\r\n' +
+0|uccx-migration  |       '\t\t<serviceLevel>5</serviceLevel>\r\n' +
+0|uccx-migration  |       '\t\t<serviceLevelPercentage>70</serviceLevelPercentage>\r\n' +
+0|uccx-migration  |       '\t\t<poolSpecificInfo>\r\n' +
+0|uccx-migration  |       '\t\t\t<resourceGroup>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<resourceGroupNameUriPair name="Health Services">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resourceGroup/6</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</resourceGroupNameUriPair>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<selectionCriteria>Longest Available</selectionCriteria>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Rachel Torrance">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/rtorrance</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Brittany Walker">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/brittanyw1</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Anne Mcglashan">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/amcg</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Kerry Bailey">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/kerynb</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Tobie Smith">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/tobies</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Timothy Mckay">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/mckayt</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Staff HS Rec 2">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/hsrec2</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Staff HS Rec 3">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/hsrec3</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Staff HS Rec 1">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/hsrec1</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Thomas Alexander Mckay">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/thomasalexan</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Caillin Flynn">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/caillinf</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Kris Taylor">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/kristent</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t\t<orderedResources name="Eliza Sharbanee">\r\n' +
+0|uccx-migration  |       '\t\t\t\t\t<refURL>https://uomccxp01meld.acc.unimelb.edu.au/adminapi/resource/sharbaneee</refURL>\r\n' +
+0|uccx-migration  |       '\t\t\t\t</orderedResources>\r\n' +
+0|uccx-migration  |       '\t\t\t</resourceGroup>\r\n' +
+0|uccx-migration  |       '\t\t</poolSpecificInfo>\r\n' +
+0|uccx-migration  |       '\t</csq>',
+0|uccx-migration  |     importSource: 'xml_file'
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T18:53:20: Creating CSQ resource group mapping: { csqId: '04029fd0-4a0a-4655-ae45-a5b6ad89c6de', resourceGroupId: '6' }
+0|uccx-migration  | 2025-10-12T18:53:20: Error parsing CSQs from csq.xml: error: relation "csq_resource_groups" does not exist
+0|uccx-migration  |     at /opt/uccx-migration/node_modules/pg-pool/index.js:45:11
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async file:///opt/uccx-migration/node_modules/drizzle-orm/node-postgres/session.js:83:22
+0|uccx-migration  |     at async DatabaseStorage.createCSQResourceGroup (file:///opt/uccx-migration/dist/index.js:629:23)
+0|uccx-migration  |     at async file:///opt/uccx-migration/dist/index.js:2366:27 {
+0|uccx-migration  |   length: 118,
+0|uccx-migration  |   severity: 'ERROR',
+0|uccx-migration  |   code: '42P01',
+0|uccx-migration  |   detail: undefined,
+0|uccx-migration  |   hint: undefined,
+0|uccx-migration  |   position: '13',
+0|uccx-migration  |   internalPosition: undefined,
+0|uccx-migration  |   internalQuery: undefined,
+0|uccx-migration  |   where: undefined,
+0|uccx-migration  |   schema: undefined,
+0|uccx-migration  |   table: undefined,
+0|uccx-migration  |   column: undefined,
+0|uccx-migration  |   dataType: undefined,
+0|uccx-migration  |   constraint: undefined,
+0|uccx-migration  |   file: 'parse_relation.c',
+0|uccx-migration  |   line: '1449',
+0|uccx-migration  |   routine: 'parserOpenTable'
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T18:53:20: 6:53:20 PM [express] POST /api/configurations/import-multiple 200 in 496ms :: {"message":"Processed …

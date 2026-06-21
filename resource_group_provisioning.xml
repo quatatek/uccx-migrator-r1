@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Resource Groups Provisioning XML for UCCX /adminapi/resourceGroup endpoint -->
+<!-- Target system will return IDs: 101, 102, 103, etc. -->
+
+<resourceGroups>
+  <!-- Resource Group 1: Support Team -->
+  <ResourceGroup>
+    <self/>
+    <name>Support Team</name>
+  </ResourceGroup>
+
+  <!-- Resource Group 2: Sales Team -->
+  <ResourceGroup>
+    <self/>
+    <name>Sales Team</name>
+  </ResourceGroup>
+
+  <!-- Resource Group 3: Billing Team -->
+  <ResourceGroup>
+    <self/>
+    <name>Billing Team</name>
+  </ResourceGroup>
+</resourceGroups>

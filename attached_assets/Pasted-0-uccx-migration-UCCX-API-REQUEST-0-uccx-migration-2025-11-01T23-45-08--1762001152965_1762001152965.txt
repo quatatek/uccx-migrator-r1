@@ -1,0 +1,61 @@
+0|uccx-migration  | ========== UCCX API REQUEST ==========
+0|uccx-migration  | 2025-11-01T23:45:08: Method: POST
+0|uccx-migration  | 2025-11-01T23:45:08: URL: https://uccx1.dcloud.cisco.com:443/adminapi/csq
+0|uccx-migration  | 2025-11-01T23:45:08: Headers: {
+0|uccx-migration  |   "Accept": "application/xml",
+0|uccx-migration  |   "Content-Type": "application/xml"
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-01T23:45:08: Body: <csq xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="csq.xsd">
+0|uccx-migration  |     <self href="" rel="" type="" />
+0|uccx-migration  |     <name>2Ring_Email</name>
+0|uccx-migration  |     <queueType>EMAIL</queueType>
+0|uccx-migration  |     <routingType>NONINTERACTIVE</routingType>
+0|uccx-migration  |     <queueAlgorithm>FIFO</queueAlgorithm>
+0|uccx-migration  |     <autoWork>false</autoWork>
+0|uccx-migration  |     <wrapupTime>1</wrapupTime>
+0|uccx-migration  |     <resourcePoolType>SKILL_GROUP</resourcePoolType>
+0|uccx-migration  |     <serviceLevel>5</serviceLevel>
+0|uccx-migration  |     <serviceLevelPercentage>70</serviceLevelPercentage>
+0|uccx-migration  |     <poolSpecificInfo>
+0|uccx-migration  |         <skillGroup>
+0|uccx-migration  |             <skillCompetency>
+0|uccx-migration  |                 <competencelevel>5</competencelevel>
+0|uccx-migration  |                 <skillNameUriPair name="2Ring_Email">
+0|uccx-migration  |                     <refURL>/adminapi/skill/56</refURL>
+0|uccx-migration  |                 </skillNameUriPair>
+0|uccx-migration  |                 <weight>1</weight>
+0|uccx-migration  |             </skillCompetency>
+0|uccx-migration  |             <skillCompetency>
+0|uccx-migration  |                 <competencelevel>5</competencelevel>
+0|uccx-migration  |                 <skillNameUriPair name="2Ring_Email_Dscr">
+0|uccx-migration  |                     <refURL>/adminapi/skill/55</refURL>
+0|uccx-migration  |                 </skillNameUriPair>
+0|uccx-migration  |                 <weight>1</weight>
+0|uccx-migration  |             </skillCompetency>
+0|uccx-migration  |             <selectionCriteria>Longest Available</selectionCriteria>
+0|uccx-migration  |         </skillGroup>
+0|uccx-migration  |     </poolSpecificInfo>
+0|uccx-migration  | </csq>
+0|uccx-migration  | 2025-11-01T23:45:08: ======================================
+0|uccx-migration  | 2025-11-01T23:45:09: 
+0|uccx-migration  | ========== UCCX API ERROR ==========
+0|uccx-migration  | 2025-11-01T23:45:09: Status: 400
+0|uccx-migration  | 2025-11-01T23:45:09: URL: https://uccx1.dcloud.cisco.com:443/adminapi/csq
+0|uccx-migration  | 2025-11-01T23:45:09: Error Data: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<apiErrors><apiError><errorData>accountUserId is missing for NonInteractive routing type CSQ</errorData><errorMessage>InvalidInput</errorMessage><errorType>InvalidInput</errorType></apiError></apiErrors>"
+0|uccx-migration  | 2025-11-01T23:45:09: ====================================
+0|uccx-migration  | 2025-11-01T23:45:09: Failed to migrate CSQ 2Ring_Email: Error: UCCX API Error: 400 - Request failed with status code 400
+0|uccx-migration  |     at file:///opt/uccx-migration/dist/index.js:2367:31
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async Axios.request (file:///opt/uccx-migration/node_modules/axios/lib/core/Axios.js:40:14)
+0|uccx-migration  |     at async UccxApiService.createCSQ (file:///opt/uccx-migration/dist/index.js:3318:22)
+0|uccx-migration  |     at async UccxApiService.migrateCSQs (file:///opt/uccx-migration/dist/index.js:2810:28)
+0|uccx-migration  |     at async UccxApiService.migrateConfiguration (file:///opt/uccx-migration/dist/index.js:2727:28)
+0|uccx-migration  |     at async MigrationQueueService.processJob (file:///opt/uccx-migration/dist/index.js:3864:31)
+0|uccx-migration  |     at async MigrationQueueService.processQueue (file:///opt/uccx-migration/dist/index.js:3718:9)
+0|uccx-migration  | 2025-11-01T23:45:09: Migration job failed: 528bb1a8-9ba0-42a4-a91b-5de2b807ac24 Migration failed: Migration completed with 1 failures
+0|uccx-migration  | 2025-11-01T23:45:09: Error processing job 528bb1a8-9ba0-42a4-a91b-5de2b807ac24: Error: Migration failed: Migration completed with 1 failures
+0|uccx-migration  |     at MigrationQueueService.processJob (file:///opt/uccx-migration/dist/index.js:3869:15)
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async MigrationQueueService.processQueue (file:///opt/uccx-migration/dist/index.js:3718:9)
+0|uccx-migration  | 2025-11-01T23:45:09: 11:45:09 PM [express] GET /api/migrations/active 200 in 1ms :: [{"id":"ab39511b-eccb-474f-8b2b-05a41e…
+0|uccx-migration  | 2025-11-01T23:45:11: 11:45:11 PM [express] GET /api/migrations/active 304 in 1ms :: [{"id":"ab39511b-eccb-474f-8b2b-05a41e…

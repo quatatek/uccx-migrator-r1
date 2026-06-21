@@ -1,0 +1,36 @@
+|uccx-migration  | 2025-10-12T11:06:54: Received migration job request body: {
+0|uccx-migration  |   "configurationItems": "skills",
+0|uccx-migration  |   "targetConnectionId": "a30b663f-233d-41cb-995b-072707e035bd",
+0|uccx-migration  |   "settings": {
+0|uccx-migration  |     "migrationType": "full",
+0|uccx-migration  |     "createBackup": false,
+0|uccx-migration  |     "validateBeforeApply": false,
+0|uccx-migration  |     "sendNotification": false
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T11:06:54: Parsed migration job data: {
+0|uccx-migration  |   "targetConnectionId": "a30b663f-233d-41cb-995b-072707e035bd",
+0|uccx-migration  |   "settings": {
+0|uccx-migration  |     "migrationType": "full",
+0|uccx-migration  |     "createBackup": false,
+0|uccx-migration  |     "validateBeforeApply": false,
+0|uccx-migration  |     "sendNotification": false
+0|uccx-migration  |   }
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T11:06:54: Migration job started: e662e646-deec-4108-8694-17fda005f672
+0|uccx-migration  | 2025-10-12T11:06:54: Processing job with settings: {
+0|uccx-migration  |   "migrationType": "full",
+0|uccx-migration  |   "createBackup": false,
+0|uccx-migration  |   "validateBeforeApply": false,
+0|uccx-migration  |   "sendNotification": false
+0|uccx-migration  | }
+0|uccx-migration  | 2025-10-12T11:06:54: Settings type: undefined
+0|uccx-migration  | 2025-10-12T11:06:54: Settings skills exists: false
+0|uccx-migration  | 2025-10-12T11:06:54: Settings skills length: undefined
+0|uccx-migration  | 2025-10-12T11:06:54: Migration job failed: e662e646-deec-4108-8694-17fda005f672 Configuration not found or not parsed
+0|uccx-migration  | 2025-10-12T11:06:54: Error processing job e662e646-deec-4108-8694-17fda005f672: Error: Configuration not found or not parsed
+0|uccx-migration  |     at MigrationQueueService.processJob (file:///opt/uccx-migration/dist/index.js:2010:17)
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async MigrationQueueService.processQueue (file:///opt/uccx-migration/dist/index.js:1939:9)
+0|uccx-migration  | 2025-10-12T11:06:54: 11:06:54 AM [express] POST /api/migrations 200 in 55ms :: {"id":"e662e646-deec-4108-8694-17fda005f672…
+0|uccx-migration  | 2025-10-12T11:06:54: 11:06:54 AM [express] GET /api/migrations/[object%20Object] 304 in 4ms

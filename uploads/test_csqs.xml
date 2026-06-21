@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uccx_configuration version="12.0" export_date="2024-01-15" source="UCCX-CSQS">
+  <csqs>
+    <csq id="CSQ001" name="General Support" enabled="true">
+      <description>General customer support queue</description>
+      <settings>
+        <setting name="maxWaitTime">300</setting>
+        <setting name="serviceLevel">80</setting>
+      </settings>
+    </csq>
+    <csq id="CSQ002" name="Technical Support" enabled="true">
+      <description>Technical support for advanced issues</description>
+      <settings>
+        <setting name="maxWaitTime">600</setting>
+        <setting name="serviceLevel">85</setting>
+      </settings>
+    </csq>
+    <csq id="CSQ003" name="Billing Support" enabled="true">
+      <description>Billing and account management queue</description>
+      <settings>
+        <setting name="maxWaitTime">240</setting>
+        <setting name="serviceLevel">90</setting>
+      </settings>
+    </csq>
+  </csqs>
+</uccx_configuration>

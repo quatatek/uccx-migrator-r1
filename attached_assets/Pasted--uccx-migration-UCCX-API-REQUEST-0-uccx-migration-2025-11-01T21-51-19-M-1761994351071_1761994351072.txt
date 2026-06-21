@@ -1,0 +1,57 @@
+|uccx-migration  | ========== UCCX API REQUEST ==========
+0|uccx-migration  | 2025-11-01T21:51:19: Method: GET
+0|uccx-migration  | 2025-11-01T21:51:19: URL: https://uccx1.dcloud.cisco.com:443/adminapi/resourceGroup
+0|uccx-migration  | 2025-11-01T21:51:19: Headers: {
+0|uccx-migration  |   "Accept": "application/json",
+0|uccx-migration  |   "Content-Type": "application/json"
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-01T21:51:19: ======================================
+0|uccx-migration  | 2025-11-01T21:51:20: 
+0|uccx-migration  | ========== UCCX API RESPONSE ==========
+0|uccx-migration  | 2025-11-01T21:51:20: Status: 200 
+0|uccx-migration  | 2025-11-01T21:51:20: URL: https://uccx1.dcloud.cisco.com:443/adminapi/resourceGroup
+0|uccx-migration  | 2025-11-01T21:51:20: Response Body: {
+0|uccx-migration  |   "@type": "resourceGroupXMLList",
+0|uccx-migration  |   "resourceGroup": [
+0|uccx-migration  |     {
+0|uccx-migration  |       "self": "https://uccx1.dcloud.cisco.com/adminapi/resourceGroup/4",
+0|uccx-migration  |       "id": 4,
+0|uccx-migration  |       "name": "Cumulus RG"
+0|uccx-migration  |     },
+0|uccx-migration  |     {
+0|uccx-migration  |       "self": "https://uccx1.dcloud.cisco.com/adminapi/resourceGroup/5",
+0|uccx-migration  |       "id": 5,
+0|uccx-migration  |       "name": "Robot Agents"
+0|uccx-migration  |     },
+0|uccx-migration  |     {
+0|uccx-migration  |       "self": "https://uccx1.dcloud.cisco.com/adminapi/resourceGroup/6",
+0|uccx-migration  |       "id": 6,
+0|uccx-migration  |       "name": "CallBack"
+0|uccx-migration  |     }
+0|uccx-migration  |   ]
+0|uccx-migration  | }
+0|uccx-migration  | 2025-11-01T21:51:20: =======================================
+0|uccx-migration  | 2025-11-01T21:51:20: Error parsing resource groups XML: Error: Non-whitespace before first tag.
+0|uccx-migration  | Line: 0
+0|uccx-migration  | Column: 1
+0|uccx-migration  | Char: [
+0|uccx-migration  |     at error (/opt/uccx-migration/node_modules/sax/lib/sax.js:658:10)
+0|uccx-migration  |     at strictFail (/opt/uccx-migration/node_modules/sax/lib/sax.js:684:7)
+0|uccx-migration  |     at beginWhiteSpace (/opt/uccx-migration/node_modules/sax/lib/sax.js:958:7)
+0|uccx-migration  |     at SAXParser.write (/opt/uccx-migration/node_modules/sax/lib/sax.js:1013:11)
+0|uccx-migration  |     at exports.Parser.Parser.parseString (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:337:31)
+0|uccx-migration  |     at Parser.parseString (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:5:59)
+0|uccx-migration  |     at /opt/uccx-migration/node_modules/xml2js/lib/parser.js:352:24
+0|uccx-migration  |     at new Promise (<anonymous>)
+0|uccx-migration  |     at exports.Parser.Parser.parseStringPromise (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:350:14)
+0|uccx-migration  |     at Parser.parseStringPromise (/opt/uccx-migration/node_modules/xml2js/lib/parser.js:5:59)
+0|uccx-migration  | 2025-11-01T21:51:20: Error fetching/parsing resource groups: Error: Failed to parse resource groups XML: Non-whitespace before first tag.
+0|uccx-migration  | Line: 0
+0|uccx-migration  | Column: 1
+0|uccx-migration  | Char: [
+0|uccx-migration  |     at ResourceGroupsParser.parseXml (file:///opt/uccx-migration/dist/index.js:1509:13)
+0|uccx-migration  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+0|uccx-migration  |     at async file:///opt/uccx-migration/dist/index.js:4431:26
+0|uccx-migration  | 2025-11-01T21:51:20: 9:51:20 PM [express] POST /api/configurations/import-from-api 200 in 831ms :: {"message":"API import…
+
+

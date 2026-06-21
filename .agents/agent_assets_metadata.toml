@@ -1,0 +1,134 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "4tanzcAr3KuQ0LrE3OJwf"
+uri = "file://test-plans/01-User-Management-TestPlan.xlsx"
+type = "table"
+title = "01 - User Management"
+
+[[outputs]]
+id = "F8wGty-sbxrrfWcokqR3n"
+uri = "file://test-plans/02-Project-Management-TestPlan.xlsx"
+type = "table"
+title = "02 - Project Management"
+
+[[outputs]]
+id = "8ljQElYdTFEClnr17JWXf"
+uri = "file://test-plans/03-UCCX-Connections-TestPlan.xlsx"
+type = "table"
+title = "03 - UCCX Connections"
+
+[[outputs]]
+id = "XHaG0oBJrO9-dhCkSijmI"
+uri = "file://test-plans/04-Import-Configuration-TestPlan.xlsx"
+type = "table"
+title = "04 - Import Configuration"
+
+[[outputs]]
+id = "X3r4ORrAzVpkndLuTjMzM"
+uri = "file://test-plans/05-Skills-Management-TestPlan.xlsx"
+type = "table"
+title = "05 - Skills Management"
+
+[[outputs]]
+id = "lnv_b9gwIqkGXdGclNO-4"
+uri = "file://test-plans/06-Resource-Groups-TestPlan.xlsx"
+type = "table"
+title = "06 - Resource Groups"
+
+[[outputs]]
+id = "-eh-NOB5a2QWoeKmtGt8t"
+uri = "file://test-plans/07-Resources-TestPlan.xlsx"
+type = "table"
+title = "07 - Resources"
+
+[[outputs]]
+id = "udi3ciQiYA8JLgF0f57Jd"
+uri = "file://test-plans/08-Teams-TestPlan.xlsx"
+type = "table"
+title = "08 - Teams"
+
+[[outputs]]
+id = "ZXsH9Cl5pamPJR_lb8eOT"
+uri = "file://test-plans/09-CSQs-TestPlan.xlsx"
+type = "table"
+title = "09 - CSQs"
+
+[[outputs]]
+id = "f6asLSfd94fjTXJoDK_Ip"
+uri = "file://test-plans/10-Applications-TestPlan.xlsx"
+type = "table"
+title = "10 - Applications"
+
+[[outputs]]
+id = "FbJxCAih2zHFLXu7GgiNi"
+uri = "file://test-plans/11-Triggers-TestPlan.xlsx"
+type = "table"
+title = "11 - Triggers"
+
+[[outputs]]
+id = "Y94-xymEJOEjKHoaFV78r"
+uri = "file://test-plans/12-Migration-Jobs-TestPlan.xlsx"
+type = "table"
+title = "12 - Migration Jobs"
+
+[[outputs]]
+id = "5niTzIqZJsdGtHQXXtdYE"
+uri = "file://test-plans/13-Dashboard-TestPlan.xlsx"
+type = "table"
+title = "13 - Dashboard"
+
+[[outputs]]
+id = "_P4HCZTU5UOAK-XacagcS"
+uri = "file://test-plans/14-Audit-Logs-TestPlan.xlsx"
+type = "table"
+title = "14 - Audit Logs"
+
+[[outputs]]
+id = "2KXIS5cLJ8xyov4lKkqEL"
+uri = "file://USER_GUIDE.md"
+type = "text"
+title = "UCCX Migration Tool — User Guide v1.0 (with Screenshots)"
+
+[[outputs]]
+id = "uoipxbRv4CG-RZ4HBxpoc"
+uri = "file://docs/screenshots/07-skills.jpg"
+type = "image"
+title = "07-skills.jpg"
+
+[[outputs]]
+id = "2VgTSqr9mqEe6sypT3DR-"
+uri = "file://docs/screenshots/08-csqs.jpg"
+type = "image"
+title = "08-csqs.jpg"
+
+[[outputs]]
+id = "tzNoT51eIxMBJVVIPk4CL"
+uri = "file://docs/screenshots/09-resources.jpg"
+type = "image"
+title = "Resources / Agents (5 records)"
+
+[[outputs]]
+id = "MeP79797DoP0px2FHNFjr"
+uri = "file://docs/screenshots/03-dashboard.jpg"
+type = "image"
+title = "Dashboard (all counts populated)"
+
+[[outputs]]
+id = "qITfuByZ3AMjwvXJ1G2wv"
+uri = "file://docs/screenshots/04-servers.jpg"
+type = "image"
+title = "Servers (with dummy data)"
+
+[[outputs]]
+id = "3vpQ9TkfjA66zxhUu5bLE"
+uri = "file://docs/screenshots/10-teams.jpg"
+type = "image"
+title = "10-teams.jpg"
+
+[[outputs]]
+id = "n-9t_7Cx0t-Zdl2qyFJUr"
+uri = "file://docs/screenshots/15-users.jpg"
+type = "image"
+title = "15-users.jpg"
