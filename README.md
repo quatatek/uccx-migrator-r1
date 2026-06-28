@@ -28,6 +28,8 @@ The tool helps administrators import configuration from a live UCCX system or XM
 
 The automated installer is designed for a fresh Ubuntu or Debian server.
 
+> **Internet connection required:** The server must have working internet access during installation because the installer downloads the application source code, operating system packages, Node.js packages, PM2, PostgreSQL components, Nginx, and other prerequisites.
+
 It installs and configures the required components, including:
 
 - Git
@@ -199,7 +201,7 @@ See [UCCX-Migration-Tool-Deployment-Guide.md](UCCX-Migration-Tool-Deployment-Gui
 ## QuataTek Resources
 
 - Website: [QuataTek](https://www.quatatek.com.au)
-- YouTube: [QuataTek Devs](https://www.youtube.com/@devsQuataTek)
+- YouTube: [QuataTek Devs](https://www.youtube.com/@devsQuataTek) — installation walkthroughs and application demonstrations are available on the channel.
 
 ## Security Notes
 
