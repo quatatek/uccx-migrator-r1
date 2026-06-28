@@ -8,7 +8,7 @@ module.exports = {
     env: {
       NODE_ENV: 'production',
       PORT: 5000,
-      DATABASE_URL: 'postgresql://uccx_user:iamGoing2Build@localhost:5432/uccx_migration',
+      DATABASE_URL: 'postgresql://uccx_user:NEW_RANDOM_PASSWORD@localhost:5432/uccx_migration',
       SESSION_SECRET: 'uccx-migration-secure-session-key-2025'
     },
     error_file: '/var/log/pm2/uccx-migration-error.log',
